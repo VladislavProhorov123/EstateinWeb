@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Urbanist", sans-serif;
+    /* font-family: "Inter", sans-serif; */
+    color: #FFF;
+    background-color: #141414;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header {
+
+}
+.container {
+}
+.header__top {
+    height: 63px;
+    background-image: url(/img/abstract\ Design.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #262626;
+}
+.header__top-title {
+    margin-right: 10px;
+}
+.header__top-link {
+    color: #FFF;
+}
+.header__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav {
+    background-color: #1A1A1A;
+    height: 99px;
+    padding-top: 22px;
+}
+.header__logo {
+}
+.logo {
+}
+.menu {
+}
+.menu__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    column-gap: 30px;
+}
+.menu__item {
+    padding: 14px 24px;
+     transition: background-color 0.3s ease;
+}
+.menu__item:hover {
+    border: 1px solid #262626;
+    border-radius: 10px;
+    padding: 14px 24px;
+    background-color: #141414;
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #FFF;
+}
+.btn {
+    padding: 16px 24px;
+    border: 1px solid #262626;
+    border-radius: 10px;
+    background-color: #141414;
+    color: #FFF;
+}
