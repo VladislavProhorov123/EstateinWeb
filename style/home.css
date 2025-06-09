@@ -207,7 +207,7 @@ button {
 }
 
 .properties {
-    margin-bottom: 50px;
+    margin-bottom: 70px;
 }
 .container {
 }
@@ -367,4 +367,132 @@ button {
 .box__bottom .btn__purple {
     max-width: 279px;
     width: 100%;
+}
+
+.clients {
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+}
+.container {
+}
+.clients__inner {
+}
+.clients__inner p{
+    color: #999999;
+}
+.clients__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 138px;
+}
+.white {
+    color: #FFF;
+}
+.clients__buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-arrow {
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    background-color: #262626;
+    color: #808080;
+    transition: color 0.3s ease;
+}
+.btn-arrow:hover {
+    color: #FFF;
+}
+
+.clients__say {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 80px;
+}
+.clients__say-text {
+}
+.text {
+}
+.subtext {
+}
+.clients__say .btn {
+    max-width: 215px;
+    height: 63px;
+}
+
+.star-gold {
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #262626;
+    background-color: #1A1A1A;
+}
+
+.clients__box-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
+}
+.clients__box {
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    max-width: 512px;
+    height: 442px;
+    border: 1px solid #262626;
+    border-radius: 12px;
+    background-color: #1A1A1A;
+    cursor: pointer;
+    padding: 50px;
+    transition: transform 0.3s ease;
+}
+.clients__box:hover {
+    transform: translateY(-4px);
+}
+.box-star {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    /* margin-bottom: 40px; */
+}
+.star-gold {
+}
+.box-text {
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-bottom: 14px;
+}
+.clients__box .box-subtext {
+    color: #FFF;
+    font-size: 18px;
+    line-height: 1.5;
+    font-weight: 500;
+    /* margin-bottom: 40px; */
+}
+.clients__img {
+    display: flex;
+    align-items: center;
+    column-gap: 12px;
+    margin-top: auto;
+}
+.clients {
+}
+.clients__name {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2px;
+}
+.box-name {
+    font-size: 20px;
+    font-weight: 500;
+}
+.box-job {
+    color: #999999;
+    font-weight: 18px;
+    font-weight: 500;
 }
