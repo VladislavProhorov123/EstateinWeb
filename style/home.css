@@ -268,7 +268,6 @@ button {
     margin-bottom: 30px;
 }
 
-
 .properties__box-subtext a {
     color: #FFF;
 }
@@ -573,4 +572,83 @@ button {
     height: 60px;
     background-color: #1A1A1A;
     border: 1px solid #262626;
+}
+
+.arrows__inner p{
+    color: #999999;
+}
+.arrows__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 138px;
+}
+.white {
+    color: #FFF;
+}
+.arrows__buttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.btn-arrow {
+    padding: 14px;
+    border-radius: 50%;
+    border: 1px solid #808080;
+    background-color: #262626;
+    color: #808080;
+    transition: color 0.3s ease;
+}
+.btn-arrow:hover {
+    color: #FFF;
+}
+
+.arrows {
+    padding-top: 20px;
+    border-top: 1px solid #262626;
+    margin-bottom: 96px;
+}
+
+.estate__say {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+.estate__say-text {
+    max-width: 1236px;
+}
+
+.estate__say .btn {
+    max-width: 192px;
+    height: 63px;
+    background-color: #703BF7;
+    border: none;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estate {
+    position: relative;
+    padding-top: 100px;
+    border-top: 1px solid #262626;
+    border-bottom: 1px solid #262626;
+    /* margin-bottom: 70px; */
+    height: 367px;
+}
+
+.estate-img1 {
+    position: absolute;
+    top: 59px;
+    left: 0;
+    z-index: -10;
+}
+
+.estate-img2 {
+    position: absolute;
+    top: 36px;
+    right: 0;
+    z-index: -10;
 }
